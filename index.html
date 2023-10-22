@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- <header class="header">
+    <header class="header">
       <div class="container header-container">
         <nav class="header-navigation">
           <a class="header-logo" href="./index.html"
@@ -55,8 +55,13 @@
             </li>
           </ul>
         </address>
+        <button class="burger-menu-button" type="button">
+          <svg class="burger-menu-icon" width="16" height="14">
+            <use href="./images/icons.svg#icon-burger-menu"></use>
+          </svg>
+        </button>
       </div>
-    </header> -->
+    </header>
 
     <main>
       <section class="hero section">
@@ -130,6 +135,7 @@
           <ul class="team-list list">
             <li class="member-card">
               <img
+                srcset="./images/img-1-1.jpg 1x, ./images/img-1-1@2x.jpg 2x"
                 src="./images/img-1-1.jpg"
                 alt="Mark Guerrero"
                 width="264"
@@ -188,6 +194,7 @@
             </li>
             <li class="member-card">
               <img
+                srcset="./images/img-1-2.jpg 1x, ./images/img-1-2@2x.jpg 2x"
                 src="./images/img-1-2.jpg"
                 alt="Tom Ford"
                 width="264"
@@ -246,6 +253,7 @@
             </li>
             <li class="member-card">
               <img
+                srcset="./images/img-1-3.jpg 1x, ./images/img-1-3@2x.jpg 2x"
                 src="./images/img-1-3.jpg"
                 alt="Camila Garcia"
                 width="264"
@@ -304,6 +312,7 @@
             </li>
             <li class="member-card">
               <img
+                srcset="./images/img-1-4.jpg 1x, ./images/img-1-4@2x.jpg 2x"
                 src="./images/img-1-4.jpg"
                 alt="Daniel Wilson"
                 width="264"
@@ -372,6 +381,10 @@
               <div class="portfolio-overlay">
                 <img
                   class="portfolio-img"
+                  srcset="
+                    ./images/portfolio-img-1.jpg    1x,
+                    ./images/portfolio-img-1@2x.jpg 2x
+                  "
                   src="./images/portfolio-img-1.jpg"
                   alt="Banking App"
                   height="300"
@@ -392,6 +405,10 @@
               <div class="portfolio-overlay">
                 <img
                   class="portfolio-img"
+                  srcset="
+                    ./images/portfolio-img-2.jpg    1x,
+                    ./images/portfolio-img-2@2x.jpg 2x
+                  "
                   src="./images/portfolio-img-2.jpg"
                   alt="Cashless Payment"
                   height="300"
@@ -412,6 +429,10 @@
               <div class="portfolio-overlay">
                 <img
                   class="portfolio-img"
+                  srcset="
+                    ./images/portfolio-img-3.jpg    1x,
+                    ./images/portfolio-img-3@2x.jpg 2x
+                  "
                   src="./images/portfolio-img-3.jpg"
                   alt="Meditation App"
                   height="300"
@@ -432,6 +453,10 @@
               <div class="portfolio-overlay">
                 <img
                   class="portfolio-img"
+                  srcset="
+                    ./images/portfolio-img-4.jpg    1x,
+                    ./images/portfolio-img-4@2x.jpg 2x
+                  "
                   src="./images/portfolio-img-4.jpg"
                   alt="Taxi Service"
                   height="300"
@@ -452,6 +477,10 @@
               <div class="portfolio-overlay">
                 <img
                   class="portfolio-img"
+                  srcset="
+                    ./images/portfolio-img-5.jpg    1x,
+                    ./images/portfolio-img-5@2x.jpg 2x
+                  "
                   src="./images/portfolio-img-5.jpg"
                   alt="Screen Illustrations"
                   height="300"
@@ -472,6 +501,10 @@
               <div class="portfolio-overlay">
                 <img
                   class="portfolio-img"
+                  srcset="
+                    ./images/portfolio-img-6.jpg    1x,
+                    ./images/portfolio-img-6@2x.jpg 2x
+                  "
                   src="./images/portfolio-img-6.jpg"
                   alt="Online Courses"
                   height="300"
@@ -493,7 +526,7 @@
       </section>
     </main>
 
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container footer-container">
         <div class="footer-text-block">
           <a class="footer-logo" href="./index.html"
@@ -573,9 +606,9 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
 
-    <!-- <div class="backdrop" data-modal>
+    <div class="backdrop" data-modal>
       <div class="modal">
         <button type="button" class="close-button" data-modal-close>
           <svg class="close-button-icon" width="8" height="8">
@@ -645,15 +678,18 @@
               <span class="custom-checkbox">
                 <svg class="checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-click"></use>
-                </svg> </span
-              >I accept the terms and conditions of the
-              <a class="policy-link" href="">Privacy Policy</a></label
-            >
+                </svg>
+              </span>
+              <div class="checkbox-label-text">
+                I accept the terms and conditions of the
+                <a class="policy-link" href="">Privacy Policy</a>
+              </div>
+            </label>
           </div>
           <button class="form-button" type="submit">Send</button>
         </form>
       </div>
     </div>
-    <script src="./js/modal.js"></script> -->
+    <script src="./js/modal.js"></script>
   </body>
 </html>
